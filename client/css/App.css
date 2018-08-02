@@ -1,55 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab');
+
 *, *::before, *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
+  margin: 0;
 }
 
 .App {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100vh;
+  background: url('/images/backgrounds/dust_scratches.png');
 }
 
 .AppHeader {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border-bottom: 1px solid #ccc;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
 }
 
 .AppTitle {
-    display: flex;
-    width: 25vw;
-    border-right: 1px solid #ccc;
-    justify-content: center;
-    box-sizing: border-box;
-    padding: 20px;
+  display: flex;
+  width: 25vw;
+  border-right: 1px solid #ccc;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 20px;
 }
 
 .AppRoom {
-    display: flex;
-    width: 75vw;
-    justify-content: center;
-    box-sizing: border-box;
-    padding: 20px;
+  display: flex;
+  width: 75vw;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 20px;
 }
 
 .AppBody {
-    display: flex;
-    flex-direction: row;
-    flex: 1;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
 }
 
 .MessageWrapper {
-    display: flex;
-    flex-direction: column;
-    width: 75vw;
-    flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 75vw;
+  flex: 1;
 }

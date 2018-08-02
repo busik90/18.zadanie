@@ -4,9 +4,36 @@
   flex-direction: column;
   justify-content: flex-end;
   width: 75vw;
-  padding: 20px;
+  padding: 5% 8%;
+  background-color: rgba(230, 190, 90, 0.12);
+  background-image: url('/images/backgrounds/geometry2.png');
+  background-blend-mode: multiply;
 }
 
 .Message {
-  padding: 5px 0;
+  min-width: 110px;
+  max-width: 55%;
+  padding: 6px 7px 8px 9px;
+  margin-bottom: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14.5px;
+  color: #4b4b4b;
+  border-radius: 7.5px;
+  box-shadow: 0 1px 0.5px rgba(0, 0, 0, 0.13);
+}
+
+.myMessage {
+  align-self: flex-end;
+  background-color: #dbffbf;
+  border-top-right-radius: 0;
+}
+
+.otherMessage {
+  align-self: flex-start;
+  background-color: white;
+  border-top-left-radius: 0;
+}
+
+.MessageFrom {
+  margin: 0 0 5px 0;
 }
