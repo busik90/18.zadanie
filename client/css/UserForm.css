@@ -1,0 +1,18 @@
+.UserForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.UserInput {
+    width: 700px;
+    padding: 20px 15px;
+    font-size: 2em;
+    text-align: center;
+    letter-spacing: 2px;
+    border: 0;
+    border-bottom: 2px solid #ccc;
+    border-radius: 50%;
+}
