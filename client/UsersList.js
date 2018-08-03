@@ -11,7 +11,7 @@ const UsersList = props => (
       {
         props.users.map((user) => {
           return (
-            <li key={user.id} className={styles.UserItem}>
+            <li key={user.id} className={`${styles.UserItem} ${ (user.name == props.loggedUser) ? styles.LoggedUser : styles.OthersUsers}`}>
               {user.name}
             </li>
           );

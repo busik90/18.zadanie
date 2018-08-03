@@ -16,11 +16,38 @@
 .UsersList {
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-flow: column;
 }
 
 .UserItem {
+    font-family: 'Arial', sans-serif;
     list-style: none;
     border-bottom: 1px solid #ccc;
-    padding: 20px;
+    padding: 15px;
     margin: 0 0 0 20px;
+}
+
+.LoggedUser {
+    font-weight: bold;
+    color: rgb(22, 154, 22);
+    order: 1;
+    display: flex;
+    position: relative;
+}
+
+.LoggedUser::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: rgb(0, 203, 0);
+    border-radius: 50%;
+
+    align-self: center;
+    position: absolute;
+    right: 10px;
+}
+
+.OthersUsers {
+    order: 2;
 }
